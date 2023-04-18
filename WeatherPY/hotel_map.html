@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e65778528d17431ca93525b568906664 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_e65778528d17431ca93525b568906664" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_e65778528d17431ca93525b568906664 = L.map(
+                "map_e65778528d17431ca93525b568906664",
+                {
+                    center: [0.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_0c6965c6d8dfa0aa55b6cffa4fc13219 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_e65778528d17431ca93525b568906664);
+        
+    
+            var marker_ce28c0a9795eb3e3eb2b0c40d08b8295 = L.marker(
+                [24.9647, 10.1728],
+                {}
+            ).addTo(map_e65778528d17431ca93525b568906664);
+        
+    
+            var icon_9f91dc309b4c5b06ba6f46f458b056af = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ce28c0a9795eb3e3eb2b0c40d08b8295.setIcon(icon_9f91dc309b4c5b06ba6f46f458b056af);
+        
+    
+            marker_ce28c0a9795eb3e3eb2b0c40d08b8295.bindTooltip(
+                `<div>
+                     فندق تاسيلي, LY
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8d385263a2fa891366a6624a43ad1171 = L.marker(
+                [-22.9661, -42.0278],
+                {}
+            ).addTo(map_e65778528d17431ca93525b568906664);
+        
+    
+            var icon_1230ed35d19abd65fe2d729fc656f016 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8d385263a2fa891366a6624a43ad1171.setIcon(icon_1230ed35d19abd65fe2d729fc656f016);
+        
+    
+            marker_8d385263a2fa891366a6624a43ad1171.bindTooltip(
+                `<div>
+                     No hotel found, BR
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4023f916b8b461ad0b9c5662b0bf0e3c = L.marker(
+                [29.1872, -82.1401],
+                {}
+            ).addTo(map_e65778528d17431ca93525b568906664);
+        
+    
+            var icon_af7b5d14972f7e84d23abfec0cce14a5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4023f916b8b461ad0b9c5662b0bf0e3c.setIcon(icon_af7b5d14972f7e84d23abfec0cce14a5);
+        
+    
+            marker_4023f916b8b461ad0b9c5662b0bf0e3c.bindTooltip(
+                `<div>
+                     Hilton Garden Inn, US
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_743ad42f4d3222eb651dcdae840cce60 = L.marker(
+                [-31.6229, 29.5448],
+                {}
+            ).addTo(map_e65778528d17431ca93525b568906664);
+        
+    
+            var icon_31f499488cddc467de0365d99271863b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_743ad42f4d3222eb651dcdae840cce60.setIcon(icon_31f499488cddc467de0365d99271863b);
+        
+    
+            marker_743ad42f4d3222eb651dcdae840cce60.bindTooltip(
+                `<div>
+                     Outback Inn, ZA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_893e51e4cc2316283223f74c367ae6b1 = L.marker(
+                [32.616, 44.0249],
+                {}
+            ).addTo(map_e65778528d17431ca93525b568906664);
+        
+    
+            var icon_1d8ab0934cc6317849db9cf2a0475236 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_893e51e4cc2316283223f74c367ae6b1.setIcon(icon_1d8ab0934cc6317849db9cf2a0475236);
+        
+    
+            marker_893e51e4cc2316283223f74c367ae6b1.bindTooltip(
+                `<div>
+                     فندق القمر, IQ
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a0eb190e1c5118ebf690b8e67de90780 = L.marker(
+                [24.4667, 54.3667],
+                {}
+            ).addTo(map_e65778528d17431ca93525b568906664);
+        
+    
+            var icon_3a8858f0cef0bdeb8ea401a8ffe13fdc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a0eb190e1c5118ebf690b8e67de90780.setIcon(icon_3a8858f0cef0bdeb8ea401a8ffe13fdc);
+        
+    
+            marker_a0eb190e1c5118ebf690b8e67de90780.bindTooltip(
+                `<div>
+                     Marriott Downtown Abu-Dhabi, AE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f9282aa53602f469b62d017a5ee3a312 = L.marker(
+                [16.0667, 73.4667],
+                {}
+            ).addTo(map_e65778528d17431ca93525b568906664);
+        
+    
+            var icon_cc50f5142d4c8dc1181fd22704cbb465 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f9282aa53602f469b62d017a5ee3a312.setIcon(icon_cc50f5142d4c8dc1181fd22704cbb465);
+        
+    
+            marker_f9282aa53602f469b62d017a5ee3a312.bindTooltip(
+                `<div>
+                     Hotel Silver Sand, IN
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4daeca2953f95b79380c5605aeaea8dd = L.marker(
+                [13.2167, 80.3167],
+                {}
+            ).addTo(map_e65778528d17431ca93525b568906664);
+        
+    
+            var icon_70e3102bae5b3b401f69fa098305dc2d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4daeca2953f95b79380c5605aeaea8dd.setIcon(icon_70e3102bae5b3b401f69fa098305dc2d);
+        
+    
+            marker_4daeca2953f95b79380c5605aeaea8dd.bindTooltip(
+                `<div>
+                     No hotel found, IN
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c16d589582210838a91cc350d0bc3692 = L.marker(
+                [22.2394, 68.9678],
+                {}
+            ).addTo(map_e65778528d17431ca93525b568906664);
+        
+    
+            var icon_28b054205a29800da6d15153067fbe37 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c16d589582210838a91cc350d0bc3692.setIcon(icon_28b054205a29800da6d15153067fbe37);
+        
+    
+            marker_c16d589582210838a91cc350d0bc3692.bindTooltip(
+                `<div>
+                     The Dwarika Hotel, IN
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_82577e6639a6bdfe47e35021730dd484 = L.marker(
+                [-30.7414, 30.455],
+                {}
+            ).addTo(map_e65778528d17431ca93525b568906664);
+        
+    
+            var icon_7cfb8785592f2944ed53e2d518b75034 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_82577e6639a6bdfe47e35021730dd484.setIcon(icon_7cfb8785592f2944ed53e2d518b75034);
+        
+    
+            marker_82577e6639a6bdfe47e35021730dd484.bindTooltip(
+                `<div>
+                     The Spot Backpackers', ZA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_40d2fd5db62da05d8d8eb902b0e14a22 = L.marker(
+                [-33.0153, 27.9116],
+                {}
+            ).addTo(map_e65778528d17431ca93525b568906664);
+        
+    
+            var icon_6d58a4379763c4ec7dbbf3205cd02b92 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_40d2fd5db62da05d8d8eb902b0e14a22.setIcon(icon_6d58a4379763c4ec7dbbf3205cd02b92);
+        
+    
+            marker_40d2fd5db62da05d8d8eb902b0e14a22.bindTooltip(
+                `<div>
+                     No hotel found, ZA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3b37b7ff2120dacd29865096c50d0677 = L.marker(
+                [27.4125, -82.659],
+                {}
+            ).addTo(map_e65778528d17431ca93525b568906664);
+        
+    
+            var icon_71b0f5331aa35f04f0ff3d26a876891f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3b37b7ff2120dacd29865096c50d0677.setIcon(icon_71b0f5331aa35f04f0ff3d26a876891f);
+        
+    
+            marker_3b37b7ff2120dacd29865096c50d0677.bindTooltip(
+                `<div>
+                     Zota Beach Resort, US
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0cc2421a959a75649771aa9b8f8226ef = L.marker(
+                [-23.35, 43.6667],
+                {}
+            ).addTo(map_e65778528d17431ca93525b568906664);
+        
+    
+            var icon_98d735f1d2f866d8e094a0ea85f07558 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0cc2421a959a75649771aa9b8f8226ef.setIcon(icon_98d735f1d2f866d8e094a0ea85f07558);
+        
+    
+            marker_0cc2421a959a75649771aa9b8f8226ef.bindTooltip(
+                `<div>
+                     Ambary, MG
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b867d28cede57903a0a473e7b4a2b9fc = L.marker(
+                [28.0717, -80.6534],
+                {}
+            ).addTo(map_e65778528d17431ca93525b568906664);
+        
+    
+            var icon_8e01acf4cbd1f7a8736e34d5c71ce7ac = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b867d28cede57903a0a473e7b4a2b9fc.setIcon(icon_8e01acf4cbd1f7a8736e34d5c71ce7ac);
+        
+    
+            marker_b867d28cede57903a0a473e7b4a2b9fc.bindTooltip(
+                `<div>
+                     Courtyard by Marriott, US
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_82cbefc271b9a5b74e5dd0b1915173b1 = L.marker(
+                [16.2079, 52.176],
+                {}
+            ).addTo(map_e65778528d17431ca93525b568906664);
+        
+    
+            var icon_0ec1942fd7996042c90413f866172612 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_82cbefc271b9a5b74e5dd0b1915173b1.setIcon(icon_0ec1942fd7996042c90413f866172612);
+        
+    
+            marker_82cbefc271b9a5b74e5dd0b1915173b1.bindTooltip(
+                `<div>
+                     فندق تاج العرب, YE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0221f2739ca09c06583145aa718e59f6 = L.marker(
+                [19.9333, -105.25],
+                {}
+            ).addTo(map_e65778528d17431ca93525b568906664);
+        
+    
+            var icon_ef4d9eece8448c6c35eaffd10c5bc7c6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0221f2739ca09c06583145aa718e59f6.setIcon(icon_ef4d9eece8448c6c35eaffd10c5bc7c6);
+        
+    
+            marker_0221f2739ca09c06583145aa718e59f6.bindTooltip(
+                `<div>
+                     Hotel Hacienda Vieja Tomatlan, MX
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
